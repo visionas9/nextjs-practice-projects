@@ -55,9 +55,8 @@ export type ModelsGridProps = {
   models: Model[];
 };
 
-export type PillProps = {
+export type PillProps = React.HTMLAttributes<HTMLSpanElement> & {
   children: ReactNode;
-  className?: string;
 };
 
 export type NavLinkProps = {
